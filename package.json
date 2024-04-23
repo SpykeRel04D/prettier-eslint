@@ -1,0 +1,65 @@
+{
+  "name": "@spykerel0d/prettier-eslint",
+  "version": "1.0.0",
+  "description": "A simple package that contains a ready-to-go setup for prettier and eslint",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier '**/*.{js,ts}' --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SpykeRel04D/prettier-eslint.git"
+  },
+  "keywords": [
+    "prettier",
+    "eslint",
+    "package"
+  ],
+  "author": "SpykeRel04D",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpykeRel04D/prettier-eslint/issues"
+  },
+  "homepage": "https://github.com/SpykeRel04D/prettier-eslint#readme",
+  "files": [
+    "index.js",
+    "config/eslint.config.js",
+    "config/eslintReact.config.js",
+    "config/prettier.config.js"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "4.3.0",
+    "@typescript-eslint/eslint-plugin": "7.7.1",
+    "@typescript-eslint/parser": "7.7.1",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prettier": "5.1.3",
+    "eslint-plugin-react": "7.34.1",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react-refresh": "0.4.6",
+    "prettier": "3.2.5"
+  },
+  "peerDependencies": {
+    "@trivago/prettier-plugin-sort-imports": ">=4",
+    "@typescript-eslint/eslint-plugin": ">=7",
+    "@typescript-eslint/parser": ">=7",
+    "eslint": ">=8",
+    "eslint-config-prettier": ">=9",
+    "eslint-plugin-prettier": ">=5",
+    "eslint-plugin-react": ">=7",
+    "eslint-plugin-react-hooks": ">=4",
+    "eslint-plugin-react-refresh": ">=0",
+    "prettier": ">=3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}
