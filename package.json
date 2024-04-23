@@ -1,6 +1,6 @@
 {
   "name": "@spykerel04d/prettier-eslint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple package that contains a ready-to-go setup for prettier and eslint",
   "main": "index.js",
   "scripts": {
