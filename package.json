@@ -1,5 +1,5 @@
 {
-  "name": "@spykerel0d/prettier-eslint",
+  "name": "@spykerel04d/prettier-eslint",
   "version": "1.0.0",
   "description": "A simple package that contains a ready-to-go setup for prettier and eslint",
   "main": "index.js",
@@ -53,9 +53,6 @@
     "eslint-plugin-react-hooks": ">=4",
     "eslint-plugin-react-refresh": ">=0",
     "prettier": ">=3"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "release": {
     "branches": [
