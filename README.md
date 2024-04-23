@@ -23,7 +23,7 @@ Typescript/Vanilla
 ```javascript
 // .eslintrc.js
 
-const eslintConfig = require('@runroom/npm-scripts').eslintConfig
+const eslintConfig = require('@spykerel04d/prettier-eslint').eslintConfig
 
 module.exports = eslintConfig
 ```
@@ -33,7 +33,7 @@ React
 ```javascript
 // .eslintrc.js
 
-const eslintConfig = require('@runroom/npm-scripts').eslintReactConfig
+const eslintConfig = require('@spykerel04d/prettier-eslint').eslintReactConfig
 
 module.exports = eslintConfig
 ```
@@ -52,7 +52,7 @@ overriding or merging the exported object with your custom configuration.
 Here's an example of merging:
 
 ```javascript
-const eslintConfig = require('@runroom/npm-scripts').eslintConfig
+const eslintConfig = require('@spykerel04d/prettier-eslint').eslintConfig
 
 // Merging
 module.exports = {
@@ -79,7 +79,7 @@ To use the Prettier configuration:
 ```javascript
 // prettier.config.js
 
-const prettierConfig = require('@runroom/npm-scripts').prettierConfig
+const prettierConfig = require('@spykerel04d/prettier-eslint').prettierConfig
 
 module.exports = prettierConfig
 ```
