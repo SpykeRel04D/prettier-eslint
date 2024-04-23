@@ -4,7 +4,8 @@
   "description": "A simple package that contains a ready-to-go setup for prettier and eslint",
   "main": "index.js",
   "scripts": {
-    "format": "prettier '**/*.{js,ts}' --write"
+    "format": "prettier '**/*.{js,ts}' --write",
+    "publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",
