@@ -23,6 +23,7 @@ Typescript/Vanilla
 ```javascript
 // .eslintrc.js
 
+/** @type {import("eslint").Config} */
 const eslintConfig = require('@spykerel04d/prettier-eslint').eslintConfig
 
 module.exports = eslintConfig
@@ -33,6 +34,7 @@ React
 ```javascript
 // .eslintrc.js
 
+/** @type {import("eslint").Config} */
 const eslintConfig = require('@spykerel04d/prettier-eslint').eslintReactConfig
 
 module.exports = eslintConfig
@@ -79,6 +81,7 @@ To use the Prettier configuration:
 ```javascript
 // prettier.config.js
 
+/** @type {import("prettier").Config} */
 const prettierConfig = require('@spykerel04d/prettier-eslint').prettierConfig
 
 module.exports = prettierConfig
